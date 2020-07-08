@@ -201,7 +201,6 @@ button:focus {
     flex-wrap: wrap;
     width: 250px;
     height: auto;
-    -webkit-transform-style: preserve-3d;
 }
 
 .loader img {
@@ -793,7 +792,6 @@ a.navbar-brand {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     color: #fff;
-    float: left;
     width: 165px;
     height: 45px;
     text-align: center;
@@ -999,8 +997,6 @@ figure.effect-service:hover {
 .gallery-box {
     padding: 70px 0px 120px;
 }
-
-.gallery-box ul {}
 
 .gallery-box ul li {
     position: relative;
@@ -1544,8 +1540,6 @@ iframe {
 .dit-right a:hover {
     color: #57cef8;
 }
-
-.contact-block {}
 
 .contact-block .form-group .form-control {
     background: #333;
