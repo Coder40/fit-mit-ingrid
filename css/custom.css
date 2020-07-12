@@ -1,9 +1,10 @@
-/** Page 1 **/
+/** Page smovey training **/
 
 
-/* Paner */
+/* Paner primary*/
 
-.bg-smovytraining {
+.bg-panar-all {
+    position: relative;
     background-color: hsla(359, 83%, 35%, 0.548);
     height: 300px;
 }
@@ -19,19 +20,19 @@
 .content-paner .title-paner {
     color: #fff;
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 28px;
     text-transform: uppercase;
 }
 
 .content-paner .linkback a {
-    font-size: 15px;
+    font-size: 16px;
     color: #fff;
     text-transform: uppercase;
 }
 
 .content-paner .linkback i {
     color: #fff;
-    font-size: 15px;
+    font-size: 16px;
     padding: 0 20px;
 }
 
@@ -55,7 +56,7 @@
 }
 
 .content-text .boxes {
-    max-width: 40%;
+    max-width: 45%;
     margin: 40px auto;
     background-color: #fff;
     padding: 25px;
@@ -78,11 +79,11 @@
 
 .content-cont {
     text-align: center;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .content-cont img {
-    max-width: 40%;
+    max-width: 100%;
 }
 
 .content-cont h4 {
@@ -91,4 +92,563 @@
 
 .content-cont p {
     color: #333;
+}
+
+
+/* page der erfinder */
+
+.bg-der-erfinder {
+    margin-bottom: 100px;
+}
+
+.content-der-erfinder img {
+    max-width: 80%;
+    margin: 100px auto 0;
+}
+
+.content-der-erfinder p {
+    text-align: justify;
+}
+
+.content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-img img {
+    border: 6px solid #99cc00;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+
+/* AQUAFIT TRAINING */
+
+.content-Aquafit-Training h2 {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.content-Aquafit .text {
+    text-align: left;
+}
+
+.content-Aquafit .text ul li {
+    list-style: inside;
+}
+
+.content-Aquafit .image img {
+    float: right;
+    border: solid 4px #333;
+    box-shadow: 10px 10px 0 0 #99cc00;
+}
+
+.content-imglabrary {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.content-imglabrary h3 a {
+    color: #D80001;
+}
+
+.content-imglabrary p {
+    max-width: 80%;
+    margin: 20px auto 0;
+}
+
+.content-imglabrary ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.content-imglabrary ul li {
+    margin-right: 30px;
+}
+
+.content-imglabrary ul li img {
+    width: 100%;
+    border: solid 4px #333;
+    box-shadow: 10px 10px 0 0 #99cc00;
+}
+
+
+/* page Fitnessgymnastik */
+
+.content-Fitnessgymnastik {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.content-Fitnessgymnastik h2 {
+    color: #99cc00;
+}
+
+
+/*  page motorikpark*/
+
+.bg-fuger {
+    background-color: #f9f9f9;
+}
+
+.list-squer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list-squer .squer {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    border-bottom: 3px solid #99cc00;
+    border-radius: 15px;
+    margin: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-squer .squer h4 {
+    color: #333;
+    font-size: 18px;
+}
+
+.bg-fuger p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.img-motorik {
+    padding-top: 0;
+}
+
+
+/* page schneeschuhwandern */
+
+.descrption-schneeschuhwandern h4 {
+    color: #99cc00;
+    padding: 50px 0 30px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.descrption-schneeschuhwandern p {
+    color: #333;
+}
+
+.descrption-schneeschuhwandern span {
+    color: #D80001;
+}
+
+
+/* page fantasie-statt-fett */
+
+.descrption-fantasie-statt-fett h4 {
+    color: #99cc00;
+    padding: 50px 0 30px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.descrption-fantasie-statt-fett p {
+    color: #333;
+}
+
+.descrption-fantasie-statt-fett b {
+    margin-top: 50px;
+}
+
+.descrption-fantasie-statt-fett ul li {
+    list-style: circle;
+}
+
+.img-p {
+    margin-top: 70px;
+}
+
+
+/* page aquafeeling */
+
+.descrption-AQUAFEELING h4 {
+    color: #99cc00;
+    padding: 50px 0 30px;
+    text-transform: capitalize;
+}
+
+.descrption-AQUAFEELING h5 {
+    color: #99cc00;
+    padding: 20px 0 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.img-AQUAFEELING {
+    padding: 0;
+}
+
+.descrption-AQUAFEELING .img-p {
+    text-align: center;
+}
+
+.link-install {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.link-install p {
+    margin-bottom: 50px;
+}
+
+.link-install p a {
+    color: #99cc00;
+    cursor: pointer;
+    border: 2px dashed rgb(146, 145, 145);
+    padding: 5px 10px;
+}
+
+.link-install .btn-install {
+    border: 2px solid #99cc00;
+    color: #99cc00;
+    padding: 8px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.link-install .btn-install:hover {
+    background-color: #99cc00;
+    color: #fff;
+}
+
+.link-install .btn-install i {
+    font-size: 20px;
+}
+
+
+/* page personal-training */
+
+.bg-personal-training {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+
+.content-personal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-box {
+    background-color: #fff;
+    padding: 30px;
+    border-left: 4px solid #99cc00;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.397);
+    max-width: 40%;
+    margin-right: 70px;
+}
+
+.descrption-personal-training h4 {
+    color: #99cc00;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+.descrption-personal-training ul li {
+    list-style: outside;
+}
+
+.content-personal .des-personal {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/* page foto */
+
+.title-warapper h2 {
+    color: #99cc00;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.warapper {
+    display: flex;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.warapper .items {
+    margin-right: 30px;
+}
+
+.warapper .items img {
+    max-width: 300px;
+}
+
+
+/* page uber mich */
+
+.content-head {
+    margin: 30px 0 0 30px;
+}
+
+.content-image {
+    margin: 60px -30px 60px 0;
+}
+
+.content-head h4 {
+    color: #D80001;
+}
+
+.content-head ul li h3 {
+    margin-top: 20px;
+}
+
+.content-head ul li {
+    list-style: circle;
+}
+
+.content-image img {
+    border: solid 4px #333;
+    box-shadow: 10px 10px 0 0 #99cc00;
+}
+
+
+/* shop */
+
+.section-pricing .single-pricing {
+    margin-top: 100px;
+    box-shadow: 0 10px 20px 0px rgba(97, 100, 143, 0.363);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-pricing .single-pricing .header {
+    background-color: #fff;
+}
+
+.section-pricing .single-pricing .header .img-shop-1 {
+    max-width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.section-pricing .single-pricing .header .img-shop-2 {
+    max-width: 255px;
+    margin: 49px 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.section-pricing .single-pricing .header .img-shop-3 {
+    max-width: 216px;
+    margin: 47px 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.section-pricing .single-pricing .header .img-shop-4 {
+    max-width: 216px;
+    margin: 60px 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.section-pricing .single-pricing .header h3 {
+    font-size: 27px;
+    text-transform: capitalize;
+    text-align: center;
+    max-width: 266px;
+    margin: 63px auto;
+}
+
+.section-pricing .single-pricing .content {
+    position: relative;
+    padding: 30px 30px 40px;
+    color: #fff;
+}
+
+@media (max-width:1440px) {
+    .section-pricing .single-pricing .cont-fit-1 {
+        padding: 30px 30px 65px;
+    }
+}
+
+.section-pricing .single-pricing .cont-fit-2 {
+    padding: 30px 30px 157px;
+}
+
+.section-pricing .single-pricing .cont-fit-3 {
+    padding: 30px 30px 121px;
+}
+
+.section-pricing .single-pricing .cont-fit-4 {
+    padding: 30px 30px 43px;
+}
+
+.section-pricing .single-pricing .cont-fit-5 {
+    padding: 30px 30px 121px;
+}
+
+.section-pricing .single-pricing .cont-fit-6 {
+    padding: 30px 30px 67px;
+}
+
+.section-pricing .free .content {
+    background: linear-gradient(to right bottom, #20de72, #26b98d);
+}
+
+.section-pricing .single-pricing .content .price {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    transition: all .3s;
+}
+
+.section-pricing .single-pricing .content .monthly-price {
+    display: block;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.section-pricing .single-pricing .content ul li {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.section-pricing .single-pricing .content ul .title-shop {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-pricing .single-pricing .content ul li i {
+    margin-right: 8px;
+    font-size: 15px;
+}
+
+.section-pricing .single-pricing .try-button {
+    text-align: center;
+}
+
+.section-pricing .single-pricing .try-button a {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    background-size: 200%;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    border-radius: 30px;
+    padding: 12px 40px;
+    text-decoration: none;
+    transform: translateY(-50%);
+    transition: box-shadow .3s;
+}
+
+.section-pricing .free .try-button a {
+    background: linear-gradient(to bottom, #20de72, #26b98d);
+}
+
+
+/* page contact */
+
+.contant-title h2 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.contant-title h2:hover {
+    color: #D80001;
+}
+
+.location {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location .card-location {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    text-align: center;
+    max-width: 280px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 30px 20px;
+    border-left: 3px solid #99cc00;
+}
+
+.location .card-location i {
+    margin-bottom: 20px;
+    color: #99cc00;
+}
+
+.bg-kontakt {
+    margin-top: 100px;
+    background-color: #00ac5f3b;
+    padding: 80px 0;
+}
+
+.contact h4 {
+    padding-bottom: 30px;
+    color: #333;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.contact .contact-form {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+    background-color: #f9f9f9da;
+    min-height: 53px;
+}
+
+.contact .contact-form button {
+    background-color: #f9f9f9da;
+    width: 50%;
+    height: 37px;
+    font-size: 18px;
+}
+
+.contact .contact-form button:hover {
+    background-color: #99cc00;
+    color: #fff;
+}
+
+.maps {
+    padding: 50px 0;
+}
+
+.maps h4 {
+    margin-bottom: 30px;
+    color: #99cc00;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 400px;
 }

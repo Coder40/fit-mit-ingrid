@@ -602,12 +602,6 @@ a.navbar-brand {
     position: relative;
 }
 
-@media (max-width: 991px) {
-    .video {
-        margin-top: 66px;
-    }
-}
-
 .video:after {
     position: absolute;
     content: '';
@@ -1616,6 +1610,7 @@ select.form-control:not([size]):not([multiple]) {
 .footer-box {
     background: #333;
     padding: 50px 0;
+    margin-top: 100px;
 }
 
 .footer-box .footer-company-name {
@@ -1875,26 +1870,6 @@ h3.small_heading {
 
 .margin-bottom_30 {
     margin-bottom: 30px;
-}
-
-.carousel a.carousel-control-prev {
-    background: #f43866;
-    opacity: 1;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    top: 40%;
-    left: -80px;
-}
-
-.carousel a.carousel-control-next {
-    background: #f43866;
-    opacity: 1;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    top: 40%;
-    right: -80px;
 }
 
 #demo {

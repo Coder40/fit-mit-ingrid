@@ -1,0 +1,82 @@
+@import url(../css/style.css);
+@import url(../css/lacters/1-signal.css);
+@import url(../css/lacters/2-networks.css);
+@import url(../css/lacters/3-simulators-network.css);
+@import url(../css/lacters/4-database.css);
+@import url(../css/lacters/5-analysis-engineer.css);
+@import url(../css/lacters/6-control.css);
+@import url(../css/lacters/7-contacts-digital.css);
+@import url(../css/lacters/8-time-real.css);
+@import url(../css/lacters/9-foundation-network.css);
+@import url(../css/lacters/10-analyzes-contacts.css);
+@import url(../css/lacters/11-time-processor.css);
+@import url(../css/lacters/12-control-data.css);
+:root {
+    --Font-primary: 'El Messiri', sans-serif;
+    --Font-secondary: 'Markazi Text', serif;
+    --Font-En: 'Rubik', sans-serif;
+    /*  */
+    --primary-color: #a299ff;
+    --secondary-color: #5c9eff;
+    --black-color: #333;
+    --white-color: #fefefe;
+    --p-color: #333;
+    --btndark-color: #fefefe;
+    /*  */
+    --news-bg-color: #ca1f3f;
+    --footer-bg-color: #04091e;
+    --primary-bg-color: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    --lectures-bg-color: #ebf5fc;
+    --table-bg-color: #fefefe;
+    --header-bg-color: #feca57;
+    --post-bg-color: #f0f7ff;
+    --body-bg-color: #fefefe;
+    --control-bg-color: #fefefe;
+    --btndark-bg-color: #1c1c1c;
+    /*  */
+    --box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    --box-shadow-card: -6px -6px 15px rgba(255, 255, 255, 1), 6px 6px 15px rgba(0, 0, 0, 0.1);
+    --box-shadow-card-hover: inset -4px -4px 5px rgba(255, 255, 255, 0.5), inset 4px 4px 5px rgba(0, 0, 0, 0.1);
+    --submit-bg-color: linear-gradient(to right, #998dff 0%, #70bafe 100%);
+    --submit-bg-color-hover: linear-gradient(to right, #70bafe 0%, #998dff 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+     :root {
+        --primary-color: #ecca66;
+        --secondary-color: #5c9eff;
+        --black-color: #333;
+        --white-color: #fefefe;
+        --p-color: #fefefe;
+        --btndark-color: #1c1c1c;
+        /*  */
+        --primary-bg-color: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+        --lectures-bg-color: #1c1c1c;
+        --table-bg-color: #26282b;
+        --header-bg-color: #feca57;
+        --body-bg-color: #1c1c1c;
+        --post-bg-color: #26282b;
+        --news-bg-color: #ca1f3f;
+        --footer-bg-color: #1c1c1c;
+        --control-bg-color: #333333d5;
+        --btndark-bg-color: #fefefe;
+        /*  */
+        --box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+        --box-shadow-card: -4px -4px 10px rgba(161, 160, 160, 0.09), 8px 8px 15px rgba(0, 0, 0, 0.2);
+        --box-shadow-card-hover: inset -5px -5px 6px rgba(161, 160, 160, 0.08), inset 5px 5px 6px rgba(0, 0, 0, 0.1);
+    }
+}
+
+body {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--Font-primary);
+    text-align: right;
+    color: var(--white-color);
+}
+
+span {
+    font-family: var(--Font-En);
+}

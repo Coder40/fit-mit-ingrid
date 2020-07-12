@@ -9,6 +9,13 @@
     }
 }
 
+@media (max-width: 991px) {
+    .video,
+    .bg-panar-all {
+        margin-top: 66px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
     .countdown {
         height: 285px;
@@ -223,6 +230,10 @@
     footer.footer-box p {
         margin-top: 5px;
         font-size: 13px;
+    }
+    .location .card-location {
+        max-width: 220px;
+        margin: 0 10px 30px 10px;
     }
 }
 
@@ -504,5 +515,39 @@
     }
     .heading_main h2 {
         font-size: 25px;
+    }
+    .content-paner .linkback a {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .content-paner .linkback i {
+        padding: 0 9px;
+    }
+    .content-smovy img {
+        max-width: 90%;
+        margin-bottom: 25px;
+    }
+    .content-text .boxes {
+        max-width: 85%;
+        margin: 20px auto;
+    }
+    .content-Aquafit .image {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .content-imglabrary p {
+        max-width: 100%;
+    }
+    .content-imglabrary ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-imglabrary ul li {
+        margin-bottom: 60px;
+    }
+    .contact .contact-form {
+        max-width: 90%;
+        margin: 0 auto;
     }
 }
