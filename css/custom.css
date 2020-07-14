@@ -393,6 +393,11 @@
 
 /* page uber mich */
 
+.carousel {
+    margin-top: 80px;
+    border: 1px solid #99cc00;
+}
+
 .content-head {
     margin: 30px 0 0 30px;
 }
