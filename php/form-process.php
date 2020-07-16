@@ -1,78 +1,31 @@
 <?php
-
-$errorMSG = "";
-
-// NAME
-if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
-} else {
-    $name = $_POST["name"];
-}
-
-// EMAIL
-if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
-} else {
-    $email = $_POST["email"];
-}
-
-// MSG Guest
-if (empty($_POST["guest"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $guest = $_POST["guest"];
-}
+$name = $_POST['name'];
+$visitor_email = $_POST['email'];
+$phone_no = $_POST['phone_no'];
+$subjectt = $_POST['subject'];
+$message = $_POST['message'];
 
 
-// MSG Event
-if (empty($_POST["event"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $event = $_POST["event"];
-}
+$email_from = $visitor_email;
+
+$subject = $subjectt;
+
+$email_body = "User Name: $name.\n".
+"User Email: $visitor_email.\n".
+"Numper Phone: $phone_no.\n".
+"User Message: $message.\n";
 
 
-// MESSAGE
-if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
-} else {
-    $message = $_POST["message"];
-}
+$to = "coder.md.4@gmail.com";
+
+$headers = "From: $email_from \r\n";
 
 
-$EmailTo = "m.almuahy404@gmail.com";
-$Subject = "New Message Received";
+mail($to,$subject,$email_body,$headers);
 
-// prepare email body text
-$Body = "";
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
-$Body .= "Email: ";
-$Body .= $email;
-$Body .= "\n";
-$Body .= "guest: ";
-$Body .= $guest;
-$Body .= "\n";
-$Body .= "event: ";
-$Body .= $event;
-$Body .= "\n";
-$Body .= "Message: ";
-$Body .= $message;
-$Body .= "\n";
+header("Location: ../index.html");
 
-// send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
 
-// redirect to success page
-if ($success && $errorMSG == ""){
-   echo "success";
-}else{
-    if($errorMSG == ""){
-        echo "Something went wrong :(";
-    } else {
-        echo $errorMSG;
-    }
-}
+
 
 ?>

@@ -360,7 +360,7 @@ a:focus {
 }
 
 .navbar-brand img {
-    max-width: 80%;
+    max-width: 55%;
 }
 
 .site_information ul li {
@@ -2145,6 +2145,7 @@ ul.bottom_menu li {
     border-radius: 10px;
     font-size: 20px;
     color: #99cc00;
+    background-color: #f9f9f9da;
     line-height: 32px;
     cursor: pointer;
     transition: ease all 0.5s;

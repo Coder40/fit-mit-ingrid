@@ -224,22 +224,25 @@
             <div class="contact">
                 <h4>Gerne beantworte ich Ihre Fragen zu meinem Kursangebot, Kosten und Terminen.</h4>
                 <div class="contact-form">
-                    <form class="contact_form_inner" action="php/form-process.php">
+                    <form class="contact_form_inner" method="POST" action="php/form-process.php">
                         <fieldset>
                             <div class="field">
-                                <input type="text" name="name" placeholder="Your name" />
+                                <input type="text" name="name" placeholder="Your name" required />
                             </div>
                             <div class="field">
-                                <input type="email" name="email" placeholder="Email" />
+                                <input type="email" name="email" placeholder="Email" / required>
                             </div>
                             <div class="field">
-                                <input type="text" name="phone_no" placeholder="Phone number" />
+                                <input type="tel" name="phone_no" placeholder="Phone number" />
                             </div>
                             <div class="field">
-                                <textarea placeholder="Message"></textarea>
+                                <input type="text" name="subject" placeholder="Subject" required />
+                            </div>
+                            <div class="field">
+                                <textarea name="message" placeholder="Message"></textarea>
                             </div>
                             <div class="field center">
-                                <button>SEND</button>
+                                <button name="subnet">SEND</button>
                             </div>
                         </fieldset>
                     </form>

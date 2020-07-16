@@ -402,7 +402,7 @@
         margin-bottom: 5px;
     }
     .navbar-brand img {
-        width: 175px;
+        max-width: 60%;
     }
     .top-header {
         background-image: none;
