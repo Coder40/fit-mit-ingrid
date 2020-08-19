@@ -5,7 +5,7 @@
 
 .bg-panar-all {
     position: relative;
-    background-color: #D80001;
+    background-color: #d80001;
     height: 300px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .content-text .boxes h3 {
-    color: #D80001;
+    color: #d80001;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -150,7 +150,7 @@
 }
 
 .content-imglabrary h3 a {
-    color: #D80001;
+    color: #d80001;
 }
 
 .content-imglabrary p {
@@ -178,13 +178,29 @@
 
 /* page Fitnessgymnastik */
 
-.content-Fitnessgymnastik {
+.content-Meditatives-Wandern {
     text-align: center;
     padding-top: 100px;
 }
 
-.content-Fitnessgymnastik h2 {
+.content-Meditatives-Wandern h2 {
+    color: #d80001;
+}
+
+.content-Meditatives-Wandern p {
+    margin: 0 auto;
+    margin-bottom: 10%;
+    max-width: 70%;
+}
+
+.part1-Meditatives-Wandern h1,
+.part2-Meditatives-Wandern h1 {
     color: #99cc00;
+}
+
+.part1-Meditatives-Wandern p,
+.part2-Meditatives-Wandern p {
+    max-width: 80%;
 }
 
 
@@ -203,7 +219,7 @@
 
 .list-squer .squer {
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #99cc00;
     border-radius: 15px;
     margin: 30px;
@@ -242,7 +258,7 @@
 }
 
 .descrption-schneeschuhwandern span {
-    color: #D80001;
+    color: #d80001;
 }
 
 
@@ -407,7 +423,7 @@
 }
 
 .content-head h4 {
-    color: #D80001;
+    color: #d80001;
 }
 
 .content-head ul li h3 {
@@ -482,7 +498,7 @@
     color: #fff;
 }
 
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
     .section-pricing .single-pricing .cont-fit-1 {
         padding: 30px 30px 65px;
     }
@@ -513,11 +529,11 @@
 }
 
 .section-pricing .single-pricing .content .price {
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 27px;
     font-weight: 700;
     letter-spacing: 0.03em;
-    transition: all .3s;
+    transition: all 0.3s;
 }
 
 .section-pricing .single-pricing .content .monthly-price {
@@ -551,7 +567,7 @@
     color: #fff;
     text-transform: uppercase;
     background-size: 200%;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -559,7 +575,7 @@
     padding: 12px 40px;
     text-decoration: none;
     transform: translateY(-50%);
-    transition: box-shadow .3s;
+    transition: box-shadow 0.3s;
 }
 
 .section-pricing .free .try-button a {
@@ -576,7 +592,7 @@
 }
 
 .contant-title h2:hover {
-    color: #D80001;
+    color: #d80001;
 }
 
 .location {
